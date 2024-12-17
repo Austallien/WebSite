@@ -1,3 +1,4 @@
+
 let terminalCaretSelector = "#terminalCaret";
 
 $(terminalCaretSelector).on("keydown", function(event) {
