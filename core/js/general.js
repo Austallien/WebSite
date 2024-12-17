@@ -17,6 +17,14 @@ $(navigationLinkSelector).on("click", function () {
     $(generalContentSelector).load(url);
 });
 
+$(closeSelector).on("click", function (event) {
+    $(globalSelector).load(ideUrl, function () {
+        $(function () {
+            $(terminalCaretSelector).trigger("focus");
+        })
+    });
+});
+
 /*
 document.querySelectorAll(".navigation-link").forEach(item => item.addEventListener('click', function () {
     if (currentElementId == this.value)
