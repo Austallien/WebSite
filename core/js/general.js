@@ -1,11 +1,11 @@
 
-let generalContentSelector = "#general-content"
+var generalContentSelector = "#general-content"
 
-let aboutSelector = "#about";
+var aboutUrl = "core/view/partial/about.html";
 let aboutUrl = "core/view/partial/about.html";
 
-let projectsSelector = "#projects";
-let projectsUrl = "core/view/partial/projects.html";
+var navigationLinkSelector = ".navigation-link";
+var closeSelector = ".close";
 
 let navigationLinkSelector = ".navigation-link";
 

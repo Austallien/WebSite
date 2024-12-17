@@ -1,5 +1,5 @@
 
-let terminalCaretSelector = "#terminalCaret";
+var terminalCaretSelector = "#terminalCaret";
 
 $(terminalCaretSelector).on("keydown", function(event) {
     if (event.key === "Enter")
