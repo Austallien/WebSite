@@ -2,16 +2,9 @@
 var generalContentSelector = "#general-content"
 
 var aboutUrl = "core/view/partial/about.html";
-let aboutUrl = "core/view/partial/about.html";
 
 var navigationLinkSelector = ".navigation-link";
 var closeSelector = ".close";
-
-let navigationLinkSelector = ".navigation-link";
-
-let currentElementSelector = aboutSelector;
-
-
 
 $(function () {
     $(generalContentSelector).load(aboutUrl);
