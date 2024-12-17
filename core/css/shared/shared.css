@@ -1,0 +1,77 @@
+:root {
+    --dark-color: rgba(30,30,30,255);
+    --block-background: #242424;
+    --bright-text-color: #f8f9fa;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cascadia Mono';
+}
+
+.logo {
+    padding-left: 24px;
+    vertical-align: middle;
+}
+
+.big-text {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.average-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.keyword-highlight {
+    color: #569cd6;
+}
+
+.class-highlight {
+    color: #4ec9b0;
+}
+
+.method-highlight {
+    color: #dcdcaa;
+}
+
+.variable-highlight {
+    color: #9cdcfe;
+}
+
+.string-highlight {
+    color: #d69d85;
+}
+
+.return-highlight {
+    color: #d8a0df;
+}
+
+.comment-highlight {
+    color: #57a64a;
+}
+
+.command-highlight {
+    color: #f5f543;
+}
+
+.link-highlight {
+    color: #569cd6;
+}
+
+.link {
+    text-decoration: none;
+    transition: linear 0.1s;
+}
+
+.link:hover {
+    color: var(--bright-text-color);
+    transition: linear 0.1s;
+}
