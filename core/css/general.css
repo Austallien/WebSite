@@ -1,0 +1,31 @@
+#general {
+}
+
+header nav {
+    align-content: center;
+}
+
+header nav > * {
+    padding: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button.navigation-link {
+    background: none;
+    border: none;
+    color: var(--bright-text-color);
+    font-size: 18px;
+    transition: linear 0.1s;
+}
+
+button.navigation-link:hover {
+    color: #569cd6;
+    transition: linear 0.1s;
+}
+
+#general-content {
+    width: 90%;
+    margin: auto;
+    padding: 8px;
+}
