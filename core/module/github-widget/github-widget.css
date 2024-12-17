@@ -1,0 +1,52 @@
+.gw-repo-outer {
+  float: left;
+  width: 100%;
+}
+.gw-repo-outer:nth-child(2n + 1) {
+  clear: left;
+}
+.gw-repo {
+    margin: 4px;
+    padding: 8px;
+    background-color: var(--block-background);
+}
+.gw-title{
+
+}
+.gw-name {
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.gw-stats {
+  display: inline-block;
+  margin: 0;
+  float: right;
+}
+.gw-watchers, .gw-forks {
+  display: inline-block;
+  height: 21px;
+  padding: 0 5px 0 23px;
+  line-height: 21px;
+  background: transparent url('repostat.png') no-repeat 0 0;
+}
+.gw-watchers {
+  background-position: 5px -27px;
+}
+.gw-forks {
+  background-position: 5px -77px;
+}
+.gw-lang {
+  padding-left: 8px;
+}
+.gw-repo-desc {
+    margin-top: 8px;
+}
+.gw-clearer {
+  clear: left;
+}
+.gw-homepage {
+  margin-top: 5px;
+}
+.gw-homepage a {
+  text-decoration: none;
+}
