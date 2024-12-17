@@ -1,0 +1,13 @@
+#IDE {
+    width: 90%;
+    margin: auto;
+}
+
+input.terminal {
+    flex-grow: 1;
+    background: rgba(31, 31, 31, 255);
+    border: none;
+    outline: none;
+    color: rgba(220, 220, 220, 255);
+    font-family: 'Cascadia Mono';
+}

@@ -1,0 +1,98 @@
+﻿<div id="IDE">
+
+    <link rel="stylesheet" href="core/css/ide.css" />
+
+    <script src="core/js/ide.js"></script>
+
+    <div style="padding: 16px; margin: 16px; background: rgba(31,31,31,255);">
+        <span class="comment-highlight">// ┏┓┳┓┏┓┳┳┏┳┓ ┳┳┓┏┓</span><br>
+        <span class="comment-highlight">// ┣┫┣┫┃┃┃┃ ┃  ┃┃┃┣ </span><br>
+        <span class="comment-highlight">// ┛┗┻┛┗┛┗┛ ┻  ┛ ┗┗┛</span><br>
+        <br>
+        <span><span class="keyword-highlight">namespace</span> Project</span><br>
+        <span>{</span>
+
+        <div style="margin-left: 16px;">
+            <span><span class="keyword-highlight">public class</span> <span class="class-highlight">About</span></span><br>
+            <span>{</span>
+
+            <!--
+            <div style="margin-left: 16px;">
+                <span>
+                    <span class="keyword">public static string</span> <span class="method">GetInfo</span>()
+                </span><br>
+                <span>{</span>
+
+                <div style="margin-left: 16px;">
+                    <span>
+                        <span class="class">StringBuilder</span> builder = <span class="keyword">new</span> <span class="class">StringBuilder</span>();
+                    </span><br>
+                    <br>
+                    <span>
+                        builder.<span class="method">AppendLine</span>(<span class="string">"Привет, меня зовут Артём."</span>);
+                    </span><br>
+                    <span>
+                            builder.<span class="method">AppendLine</span>(<span class="string">"Я являюсь студентом ...</span>
+                    </span><br>
+                    <span>
+                        builder.<span class="method">AppendLine</span>(<span class="string">"Спасибо за уделённое внимание. Приятно было пообщаться. Надеюсь, ещё встретимся."</span>);
+                    </span><br>
+                    <br>
+                    <span>
+                        <span class="return">return</span> builder.<span class="method">ToString</span>();
+                    </span><br>
+                </div>
+
+                <span>}</span>
+            </div>
+            -->
+            <div style="margin-left: 16px;">
+                <span>
+                    <span class="keyword-highlight">public static</span> <span class="class-highlight">Data</span> <span class="method-highlight">GetData</span>()
+                </span><br>
+                <span>{</span>
+
+                <div style="margin-left: 16px;">
+                    <span>
+                        <span class="class-highlight">Data</span> data = <span class="keyword-highlight">new</span> <span class="class-highlight">Data</span>();
+                    </span><br>
+                    <br>
+                    <span>
+                        data.Person = <span class="keyword-highlight">new</span> <span class="class-highlight">Person</span>()
+                    </span><br>
+                    <span>{</span><br>
+
+                    <div style="margin-left: 16px;">
+                        FirstName = <span class="string-highlight">"Адаменко"</span>,<br>
+                        MiddleName = <span class="string-highlight">"Артём"</span>,<br>
+                        ...
+                    </div>
+
+                    <span>};</span><br>
+                    <br>
+                    <span>
+                        <span class="return-highlight">return</span> data;
+                    </span><br>
+                </div>
+
+                <span>}</span>
+            </div>
+
+        </div>
+
+        <span>}</span>
+    </div>
+
+    <div style="margin: 16px;">
+        <div style="padding: 8px; background: rgba(31,31,31,255);">
+            <span style="color: white;">Terminal #1</span>
+            <br>
+        </div>
+
+        <div style="display: flex; flex-direction: column; padding: 16px; background: rgba(31,31,31,255);">
+            <div style="display: flex;">
+                D:\Projects\C#\Project><span class="command-highlight"> dotnet</span> run<input id="terminalCaret" autofocus autocomplete="off" class="terminal" value="" />
+            </div>
+        </div>
+    </div>
+</div>
