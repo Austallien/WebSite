@@ -22,19 +22,6 @@ header {
     background: var(--dark-color);
 }
 
-a.hyperlink {
-    color: #d8a0df;
-    padding-left: 8px;
-    font-size: 12px;
-    text-decoration: none;
-    transition: linear 0.1s;
-}
-
-a.hyperlink:hover {
-    color: var(--bright-text-color);
-    transition: linear 0.1s;
-}
-
 main {
     flex-grow: 1;
     margin: auto;
