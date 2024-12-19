@@ -4,6 +4,13 @@
     --bright-text-color: #f8f9fa;
 }
 
+@font-face {
+    font-family: 'Cascadia Mono';
+    src: local('Cascadia Mono'),
+        url('/core/resource/font/CascadiaMono.woff') format('woff'),
+        url('/core/resource/font/CascadiaMono.ttf') format('truetype');
+}
+
 * {
     margin: 0px;
     padding: 0px;
