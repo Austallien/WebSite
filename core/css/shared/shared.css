@@ -7,8 +7,8 @@
 @font-face {
     font-family: 'Cascadia Mono';
     src: local('Cascadia Mono'),
-        url('/core/resource/font/CascadiaMono.woff') format('woff'),
-        url('/core/resource/font/CascadiaMono.ttf') format('truetype');
+        url('../../core/resource/font/CascadiaMono.woff') format('woff'),
+        url('../../core/resource/font/CascadiaMono.ttf') format('truetype');
 }
 
 * {
